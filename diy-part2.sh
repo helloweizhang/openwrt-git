@@ -32,3 +32,4 @@ echo "# iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE" >> package/network
 #添加额外软件包
 #git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
+git clone https://github.com/281677160/openwrt-package.git package/openwrt-packages
