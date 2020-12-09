@@ -30,5 +30,5 @@ sed -i 's/%D %V, %C/OpenWrt SML v1.1[2021] | by "LuckyGoldVenus.Wechat"/g' packa
 echo "# iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE" >> package/network/config/firewall/files/firewall.user
 
 #添加额外软件包
-git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
-git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
+#git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
+#git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
