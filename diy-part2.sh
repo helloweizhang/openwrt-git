@@ -14,7 +14,7 @@
 sed -i 's/192.168.1.1/192.168.100.31/g' package/base-files/files/bin/config_generate
 
 # Modify hostname
-sed -i 's/OpenWrt/Tarabulus/g' package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/Lorencia/g' package/base-files/files/bin/config_generate
 
 # Modify the version number
 sed -i "s/OpenWrt /LuckyGoldVenus@Wechat $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
