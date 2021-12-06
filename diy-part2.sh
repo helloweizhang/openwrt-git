@@ -20,7 +20,7 @@ sed -i 's/OpenWrt/Lorencia/g' package/base-files/files/bin/config_generate
 sed -i "s/OpenWrt /LuckyGoldVenus@Wechat $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
 
 # Modify default theme
-# sed -i 's/luci-theme-bootstrap/luci-theme-opentomcat/g' feeds/luci/collections/luci/Makefile
+ sed -i 's/luci-theme-bootstrap/luci-theme-mcat/g' feeds/luci/collections/luci/Makefile
 
 # Modify banner
 sed -i 's/%D %V, %C/OpenWrt SML v1.1[2021] | by "LuckyGoldVenus.Wechat"/g' package/base-files/files/etc/banner
