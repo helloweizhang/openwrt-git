@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt X86-64 pptp-plus
+name: Build X86-64 pptp-plus
 
 on:
   repository_dispatch:
